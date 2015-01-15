@@ -5,7 +5,7 @@ module.exports = function(grunt) {
       files: ['Gruntfile.js', 'public/js/**/*.js'],
     },
     jasmine: {
-      files: [ 'public/js/*.js','public/js/specs/*.js']
+      files: ['public/js/*.js','public/js/spec/*.js']
     },
     watch: {
       files: ['<%= jshint.files %>'],

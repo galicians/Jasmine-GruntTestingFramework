@@ -2,7 +2,7 @@
 
 ###To setup the Grunt-testing framework follow the next steps:
 
-1. Npm/bower for package installation;
+1. Npm/bower for package installation:(ensure grunt and grunt-cli are installed globally)
 
 - npm install grunt-contrib-jshint —> installing jshint for code quality standards
 
@@ -18,11 +18,11 @@
     
     public
         - js
-            - specs
+            - spec
             * your js files
 
     If you want to use a different file structure make sure you update the following lines in your gruntfile:
-        files: [ 'public/js/*.js','public/js/specs/*.js'] //line 8 in the gruntfile
+        files: [ 'public/js/*.js','public/js/spec/*.js'] //line 8 in the gruntfile
 
 5. Run grunt jasmine and you should see the tests
     If you want to ensure your code is meeting the jshint quality standars just run grunt watch, after you save any change in your js files you will see the errors or the lack of them.

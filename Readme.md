@@ -34,21 +34,33 @@
 
 The Jasmine testing framework from Pivotal Labs comes with this default set of matchers:
 
-expect(fn).toThrow(e);
-expect(instance).toBe(instance);
-expect(mixed).toBeDefined();
-expect(mixed).toBeFalsy();
-expect(number).toBeGreaterThan(number);
-expect(number).toBeLessThan(number);
-expect(mixed).toBeNull();
-expect(mixed).toBeTruthy();
-expect(mixed).toBeUndefined();
-expect(array).toContain(member);
-expect(string).toContain(substring);
-expect(mixed).toEqual(mixed);
-expect(mixed).toMatch(pattern);
+- expect(fn).toThrow(e);
 
-In case you want to user additional matchers, you can use Jaime Mason package, just by running:
+- expect(instance).toBe(instance);
+
+- expect(mixed).toBeDefined();
+
+- expect(mixed).toBeFalsy();
+
+- expect(number).toBeGreaterThan(number);
+
+- expect(number).toBeLessThan(number);
+
+- expect(mixed).toBeNull();
+
+- expect(mixed).toBeTruthy();
+
+- expect(mixed).toBeUndefined();
+
+- expect(array).toContain(member);
+
+- expect(string).toContain(substring);
+
+- expect(mixed).toEqual(mixed);
+
+- expect(mixed).toMatch(pattern);
+
+* In case you want to user additional matchers, you can use Jaime Mason package, just by running:
 
 npm install jasmine-expect --save-dev
 

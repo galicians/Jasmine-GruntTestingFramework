@@ -60,7 +60,7 @@ The Jasmine testing framework from Pivotal Labs comes with this default set of m
 
 - expect(mixed).toMatch(pattern);
 
-* In case you want to user additional matchers, you can use Jaime Mason package, just by running:
+In case you want to user additional matchers, you can use Jaime Mason package, just by running:
 
 npm install jasmine-expect --save-dev
 

@@ -4,9 +4,11 @@
 
 1. Npm/bower for package installation;
 
-npm install grunt-contrib-jshint —> installing jshint for code quality standards
-npm install grunt-contrib-watch —> for watching file changes on you project
-npm install grunt-contrib-jasmine —> install the jasmine testing framework
+- npm install grunt-contrib-jshint —> installing jshint for code quality standards
+
+- npm install grunt-contrib-watch —> for watching file changes on you project
+
+- npm install grunt-contrib-jasmine —> install the jasmine testing framework
 
 2. Next step create the gruntile: touch Gruntfile.js
 

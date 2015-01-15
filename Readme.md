@@ -1,6 +1,6 @@
-### Setting up grunt with jasmine as Front End testing framework
+## Setting up grunt with jasmine as Front End testing framework
 
-##To setup the Grunt-testing framework follow the next steps:
+###To setup the Grunt-testing framework follow the next steps:
 
 1. Npm/bower for package installation;
 
